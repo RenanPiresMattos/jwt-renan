@@ -1,0 +1,20 @@
+{
+    "name": "jwtrenan/jwt",
+    "description": "A very simple library to work with JSON Web Token",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Renan Pires Mattos",
+            "email": "renanpiresmattos@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "JWTRenan\\JWT\\": "src/"
+        }
+    }
+}
